@@ -34,62 +34,78 @@
     </div>
   </nav>
 <div id="container">
-<div id="content">
-  <div class="row">
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="Images/nuclear.jpg" class="img-thumbnail grayscale">
-        <figcaption>Nucelar Energy</figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="Images/solar.jpg" class="img-thumbnail grayscale">
-
-        <figcaption>Solar Energy</figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="Images/wind.jpg" class="img-thumbnail grayscale">
-        <figcaption>Wind Energy</figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="Images/dam.jpg" id="dam" class="img-thumbnail grayscale">
-        <figcaption>Kinetic Energy</figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <p>Lorem ipsum dolor </p>
-        <figcaption>Sam</figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <a  id="hover"href="">
-        <img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale"></a>
-        <figcaption>Random</figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1434394354979-a235cd36269d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <figcaption>Random</figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1485160497022-3e09382fb310?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <figcaption>Random</figcaption>
-      </figure>
+  <div id="content">
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <a href="page1.html"><img id="zoom" onmouseover="briefInfo1(this)" onmouseout="backToNormal1(this)" src="Images/nuclear.jpg"  class="img-thumbnail grayscale">
+          <br><br></a>
+          <p id="text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ratione beatae laborum corporis ipsum. Quo magnam blanditiis quod provident quam voluptate, soluta pariatur deserunt, magni odio facilis enim earum non!</p>
+          <figcaption id="figcaption1">Nucelar Energy</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <a href="page2.html"><img id="zoom" onmouseover="briefInfo2(this)" onmouseout="backToNormal2(this)" src="Images/solar.jpg" class="img-thumbnail grayscale">
+          <br><br></a>
+          <p id="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ratione beatae laborum corporis ipsum. Quo magnam blanditiis quod provident quam voluptate, soluta pariatur deserunt, magni odio facilis enim earum non!</p>
+          <figcaption id="figcaption2" >Solar Energy</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <a href="page3.html"><img id="zoom" onmouseover="briefInfo3(this)" onmouseout="backToNormal3(this)" src="Images/wind.jpg" class="img-thumbnail grayscale">
+          <br><br></a>
+          <p id="text3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ratione beatae laborum corporis ipsum. Quo magnam blanditiis quod provident quam voluptate, soluta pariatur deserunt, magni odio facilis enim earum non!</p>       
+          <figcaption id="figcaption3" >Wind Energy</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <a href="page4.html"><img id="zoom" onmouseover="briefInfo4(this)" onmouseout="backToNormal4(this)" src="Images/nuclear.jpg" class="img-thumbnail grayscale">
+          <br><br></a>
+          <p id="text4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ratione beatae laborum corporis ipsum. Quo magnam blanditiis quod provident quam voluptate, soluta pariatur deserunt, magni odio facilis enim earum non!</p>       
+          <figcaption id="figcaption4" >Kinetic Energy</figcaption>
+        </figure>
+      </div>
+      <div class="con2" id="container">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <a href="page5.html"><img id="zoom" onmouseover="briefInfo5(this)" onmouseout="backToNormal5(this)" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
+          <br><br></a>
+          <p id="text5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe itaque perferendis eum mollitia ullam. Illum expedita, deserunt amet eaque officia consequatur ipsa, sed dicta, doloremque necessitatibus minus quos iste unde.</p>
+          <figcaption id="figcaption5" >Sam</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <a  id="hover"href="">
+          <a href="page6.html"><img id="zoom" onmouseover="briefInfo6(this)" onmouseout="backToNormal6(this)" src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale"></a>
+          <br><br></a>
+          <p id="text6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ratione beatae laborum corporis ipsum. Quo magnam blanditiis quod provident quam voluptate, soluta pariatur deserunt, magni odio facilis enim earum non!</p>
+          <figcaption id="figcaption6" >Random</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <a href="page7.html"><img id="zoom" onmouseover="briefInfo7(this)" onmouseout="backToNormal7(this)" src="https://images.unsplash.com/photo-1434394354979-a235cd36269d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
+          <br><br></a>
+          <p id="text7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ratione beatae laborum corporis ipsum. Quo magnam blanditiis quod provident quam voluptate, soluta pariatur deserunt, magni odio facilis enim earum non!</p>
+          <figcaption id="figcaption7" >Random</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <a href="page8.html"><img id="zoom" onmouseover="briefInfo8(this)" onmouseout="backToNormal8(this)" src="https://images.unsplash.com/photo-1485160497022-3e09382fb310?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
+          <br><br></a>
+          <p id="text8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ratione beatae laborum corporis ipsum. Quo magnam blanditiis quod provident quam voluptate, soluta pariatur deserunt, magni odio facilis enim earum non!</p>
+          <figcaption id="figcaption8" >Random</figcaption>
+        </figure>
+      </div> 
+      </div>
     </div>
   </div>
-</div>
-</div>
- 
-</body>
-</html>
+  </div>
+  <script src="index.js"> </script>
+  </body>
+  </html>
