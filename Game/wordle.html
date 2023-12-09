@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="wordle.css">
+  <title>Mini Game</title>
+</head>
+<body>
+<script>
+  if (confirm("Hello there! Welcome to the mini game section. For this game, you are to guess a random 5 letter word. Let's see the rules of this game")) {
+    alert("Letters that are in the answer and in the right place will display on the box, Letters that are in the answer but in the wrong place it will display on the bottom. Max guesses = 6. ");
+} else {};
+</script>
+<div class="container">
+  <h1>
+    Mini Game
+  </h1>
+  <div id="word-container" class="word-container">
+  </div>
+  <p>
+    Enter your guess:
+  </p>
+  <input type="text" id="guessInput" maxlength="5" />
+  <button onclick="submitGuess()">
+    Submit
+  </button>
+  <p id="feedback" class="feedback">
+  </p>
+  <div class="attempts-container" id="attemptsContainer">
+  </div>
+  <br>
+  <p>
+    inspiration from the game "Wordle"
+  </p>
+</div>
+  <script src="wordle.js"></script>
+</body>
+</html>

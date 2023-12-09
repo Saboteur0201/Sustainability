@@ -61,17 +61,29 @@ p{
   font-family: 'Abel', sans-serif;
 }
 
-figcaption{
-  font-weight: bolder;
-  font-variant: small-caps;
-  font-size: 150%;
-}
 
 .nav1{
   background-color: beige;
   padding-top: 1%;
   padding-bottom: 1%; 
 }   
+
+.nav-item{
+  color: #9a9c9d;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+figcaption{
+  font-weight: bolder;
+  font-variant: small-caps;
+  font-size: 150%;
+}
+
+.item1{
+  padding-left: 100px;
+} 
 
 /*Responsive webpage*/
 @media screen and (max-width: 1920x1080){
