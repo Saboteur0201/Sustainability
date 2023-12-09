@@ -1,3 +1,4 @@
+
 function briefInfo1(x) {
     text1.style.display = 'block';
     figcaption1.style.display = 'none';
