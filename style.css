@@ -1,7 +1,10 @@
-body{
-  background-image: url('Images/background.jpg');
-  background-size: 33%;
-
+.background{
+  background-image: url('Images/bg2.jpg');
+  background-size:cover;
+}
+.credits{
+  background-image: url();
+  background-size: ;
 }
 
 #hover:hover{
@@ -15,7 +18,15 @@ p{
   animation-name: dropDown;
   animation-duration: 1s;
 }
-  
+
+h1{
+  padding-left: 0%;
+  margin-left: 0%;
+  transform: translateX(150%);
+  font-weight: bolder;
+  font-variant: small-caps;
+}
+
 @keyframes dropDown {
   0%   {background: left 0px; top:100px;}
   100% {background: left 0px; top:0px;}
@@ -85,21 +96,63 @@ figcaption{
   padding-left: 100px;
 } 
 
+.creds{
+  transform: translateY(100px);
+}
+
 /*Responsive webpage*/
-@media screen and (max-width: 1920x1080){
-  #wrapper{
-    width: 90%;
+
+/* @media screen and (min-width: 1400px){
+  body{
+    background-size: 50%;
   }
+}
+
+@media screen and (min-width: 1200px){
+  body{
+    background-size: 35%;
+  }
+} */
+
+
+
+/* @media screen and (min-width: 992px){
+  body{
+    background-size: 33%;
+  }
+} */
+
+@media screen and (max-width: 1400px){
   #content{
+    size: 50%;
+    /* margin-top: 30%; */
+  }
+}
+@media screen and (max-width: 992px){
+  #wrapper{
     width: 60%;
   }
+  /* #content{
+    width: 50%;
+  } */
+  /* #contianer{
+    height: 90%;
+    width: 50%; 
+  }*/
   #nav1{
     width: 30%;
     background-color:white;
   }
 }
 
-@media screen and (max-width: 700px){
+
+
+/* @media screen and (min-width: 768px){
+  body{
+    background-size: 50%;
+  }
+} */
+@media screen and (max-width: 768px){
   #content{
    width: 100%;
   }
@@ -111,7 +164,14 @@ figcaption{
   }
 }
 
-@media screen and (max-width: 420px){
+
+
+/* @media screen and (min-width: 576px){
+  body{
+    background-size: 33%;
+  }
+} */
+@media screen and (max-width: 576px){
   #content{
     width:100%;
   }
@@ -123,6 +183,13 @@ figcaption{
   }
 } 
 
+
+
+/* @media screen and (min-width: 360px){
+  body{
+    background-size: 33%;
+  }
+} */
 @media screen and (max-width: 360px){
   #content{
     width:20%;
