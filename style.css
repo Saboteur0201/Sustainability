@@ -3,8 +3,10 @@
   background-size:cover;
 }
 .credits{
-  background-image: url();
-  background-size: ;
+  /* background-image: url('Images/background2.jpg');
+  background-size: 90%; */
+  background-blend-mode:normal;
+  background-color: antiquewhite;
 }
 
 #hover:hover{
@@ -20,11 +22,30 @@ p{
 }
 
 h1{
+  font-size: 300%;
   padding-left: 0%;
-  margin-left: 0%;
+  margin-left: 30%;
   transform: translateX(150%);
   font-weight: bolder;
   font-variant: small-caps;
+}
+
+h4{
+  font-size: 180%;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: 5%;
+}
+
+.txt{
+  font-size: 100%;
+  margin-left:6%;
+}
+
+.hyperlink{
+  text-decoration: underline;
+  color:rgb(107, 107, 107)
 }
 
 @keyframes dropDown {
@@ -212,4 +233,15 @@ figcaption{
 
 #container{
   position: relative;
+}
+
+
+@media screen and (max-width: 990px) {
+  .creds{
+    width:30%;
+  }
+  /* #contnet{
+    width: 30%;
+  } */
+  
 }
