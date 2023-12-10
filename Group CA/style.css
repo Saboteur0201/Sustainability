@@ -1,0 +1,151 @@
+body{
+  background-image: url('Images/background.jpg');
+  background-size: 33%;
+
+}
+
+#hover:hover{
+  transform:scale(10px);
+}
+   
+p{
+  display: none;
+  text-align: justify;
+  position: relative;
+  animation-name: dropDown;
+  animation-duration: 1s;
+}
+  
+@keyframes dropDown {
+  0%   {background: left 0px; top:100px;}
+  100% {background: left 0px; top:0px;}
+}
+
+/*Centerlining the content*/
+#content{ 
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2%;
+  text-align: center;
+  background-image: url('Images/gradient.jpg'); background-size: 100%; background-position-y: 40%; background-blend-mode:luminosity;
+  background-color:rgba(220, 220, 220, 0.694);
+  padding:1.5%;
+  padding-top: 2;
+  padding-bottom: 0;
+  border-radius: 20px;
+  object-position: 50%;
+  overflow: hidden;  
+
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.img-thumbnail{
+  background-color: whitesmoke;
+  padding: 0%;
+  border-radius:20px;
+}
+
+p{
+  font-size: 150%;
+  font-family: 'Afacad', sans-serif;  
+}
+
+.navbar-brand{
+  font-size: 200%;
+  font-family: 'Ephesis', cursive;
+}
+
+.navbar-nav{
+  font-size: 150%;
+  font-family: 'Abel', sans-serif;
+}
+
+
+.nav1{
+  background-color: beige;
+  padding-top: 1%;
+  padding-bottom: 1%; 
+}   
+
+.nav-item{
+  color: #9a9c9d;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+figcaption{
+  font-weight: bolder;
+  font-variant: small-caps;
+  font-size: 150%;
+}
+
+.item1{
+  padding-left: 100px;
+} 
+
+/*Responsive webpage*/
+@media screen and (max-width: 1920x1080){
+  #wrapper{
+    width: 90%;
+  }
+  #content{
+    width: 60%;
+  }
+  #nav1{
+    width: 30%;
+    background-color:white;
+  }
+}
+
+@media screen and (max-width: 700px){
+  #content{
+   width: 100%;
+  }
+  #nav1{
+   width:100%;
+  }
+  #wrapper{
+   width:100%;
+  }
+}
+
+@media screen and (max-width: 420px){
+  #content{
+    width:100%;
+  }
+  #nav1{
+    width:100%;
+  }
+  #wrapper{
+    width:100%
+  }
+} 
+
+@media screen and (max-width: 360px){
+  #content{
+    width:20%;
+  }
+  #nav1{
+    width:30%;
+  }
+  #wrapper{
+    width:30%
+  }
+}
+
+#zoom {
+  transition: transform .5s;
+}
+
+#zoom:hover {
+  transform: scale(1.1);
+} 
+
+#container{
+  position: relative;
+}
+#navbar-right{
+  float: right  ;
+}
