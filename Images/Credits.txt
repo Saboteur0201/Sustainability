@@ -1,7 +1,23 @@
-background - Photo by <a href="https://unsplash.com/@filipz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Filip Zrnzević</a> on <a href="https://unsplash.com/photos/aerial-photography-of-forest-QsWG0kjPQRY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+background main - Photo by <a href="https://unsplash.com/@elliottengelmann?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Elliott Engelmann</a> on <a href="https://unsplash.com/photos/silhouette-of-mountain-DjlKxYFJlTc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+background credits -Photo by <a href="https://unsplash.com/@hikendal?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kendal</a> on <a href="https://unsplash.com/photos/green-ferns-on-a-black-background-hnysCJrPpkc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+  
 
 gradient - Photo by <a href="https://unsplash.com/@nightcoder?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Yuriy Kovalev</a> on <a href="https://unsplash.com/photos/mountain-covering-with-clouds-nN1HSDtKdlw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 
 nuclear - Photo by <a href="https://unsplash.com/@fredography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Frédéric Paulussen</a> on <a href="https://unsplash.com/photos/skyline-photography-of-nuclear-plant-cooling-tower-blowing-smokes-under-white-and-orange-sky-at-daytime-LWnD8U2OReU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+geo - Photo by <a href="https://unsplash.com/@samuelbarkos?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sam Bark</a> on <a href="https://unsplash.com/photos/silhouette-of-factory-during-sunset-R1GWSOJ9cng?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+biomass -Photo by <a href="https://unsplash.com/@federize?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Federico Beccari</a> on <a href="https://unsplash.com/photos/time-lapse-photography-of-square-containers-at-night-ahi73ZN5P0Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+ 
+
+tidal - Photo by <a href="https://unsplash.com/@frankiefoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">frank mckenna</a> on <a href="https://unsplash.com/photos/five-birds-flying-on-the-sea-OD9EOzfSOh0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+ 
+hydro - Photo by <a href="https://unsplash.com/@climatechangevi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Karl Callwood</a> on <a href="https://unsplash.com/photos/a-dam-with-hoover-dam-over-it-q0LPwv08lxo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+  
+
   
