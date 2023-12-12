@@ -1,18 +1,22 @@
+/* Background image for home page */
 .background{
   background-image: url('Images/bg2.jpg');
   background-size:cover;
 }
+
+/* Background color for credits page */
 .credits{
-  /* background-image: url('Images/background2.jpg');
-  background-size: 90%; */
+  background-size: 90%;
   background-blend-mode:normal;
   background-color: antiquewhite;
 }
 
+/* Hover for gallery images */
 #hover:hover{
   transform:scale(10px);
 }
    
+/* Hiding text and popup upon mouse hover */
 p{
   display: none;
   text-align: justify;
@@ -21,6 +25,7 @@ p{
   animation-duration: 1s;
 }
 
+/* Setting font size, stle and variant for header 1 */
 h1{
   font-size: 300%;
   padding-left: 0%;
@@ -30,6 +35,7 @@ h1{
   font-variant: small-caps;
 }
 
+/* Setting font size, stle and variant for header 4 */
 h4{
   font-size: 180%;
   font-family: 'Quattrocento Sans', sans-serif;
@@ -38,16 +44,20 @@ h4{
   margin-left: 5%;
 }
 
+
+/* Setting font size and margin for text */
 .txt{
   font-size: 100%;
   margin-left:6%;
 }
 
+/* Setting color for hyperlink */
 .hyperlink{
   text-decoration: underline;
   color:rgb(107, 107, 107)
 }
 
+/* Popup for p */
 @keyframes dropDown {
   0%   {background: left 0px; top:100px;}
   100% {background: left 0px; top:0px;}
@@ -72,34 +82,39 @@ h4{
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
+/* Bluring container image */
 .img-thumbnail{
   background-color: whitesmoke;
   padding: 0%;
   border-radius:20px;
 }
 
+/* Setting font size, stle and variant for p */
 p{
   font-size: 150%;
   font-family: 'Afacad', sans-serif;  
 }
 
+/* Setting font size and style for nav bar icon*/
 .navbar-brand{
   font-size: 250%;
   font-family: 'Ephesis', cursive;
 }
 
+/* Setting font size and stype for nav bar headers*/
 .navbar-nav{
   font-size: 150%;
   font-family: 'Abel', sans-serif;
 }
 
-
+/* Setting border for navbar */
 .nav1{
   background-color: beige;
   padding-top: 1%;
   padding-bottom: 1%; 
 }   
 
+/* Marging for each nav header */
 .nav-item{
   color: #9a9c9d;
   padding-right: 20px;
@@ -107,122 +122,24 @@ p{
   position: relative;
 }
 
+/* Setting font size and stype for gallery image caption */
 figcaption{
   font-weight: bolder;
   font-variant: small-caps;
   font-size: 150%;
 }
 
+/* Marging for gallery images */
 .item1{
   padding-left: 100px;
 } 
 
+/* Positioning credits page text */
 .creds{
   transform: translateY(100px);
 }
 
-/*Responsive webpage*/
-
-/* @media screen and (min-width: 1400px){
-  body{
-    background-size: 50%;
-  }
-}
-
-@media screen and (min-width: 1200px){
-  body{
-    background-size: 35%;
-  }
-} */
-
-
-
-/* @media screen and (min-width: 992px){
-  body{
-    background-size: 33%;
-  }
-} */
-
-@media screen and (max-width: 1400px){
-  #content{
-    size: 50%;
-    /* margin-top: 30%; */
-  }
-}
-@media screen and (max-width: 992px){
-  #wrapper{
-    width: 60%;
-  }
-  /* #content{
-    width: 50%;
-  } */
-  /* #contianer{
-    height: 90%;
-    width: 50%; 
-  }*/
-  #nav1{
-    width: 30%;
-    background-color:white;
-  }
-}
-
-
-
-/* @media screen and (min-width: 768px){
-  body{
-    background-size: 50%;
-  }
-} */
-@media screen and (max-width: 768px){
-  #content{
-   width: 100%;
-  }
-  #nav1{
-   width:100%;
-  }
-  #wrapper{
-   width:100%;
-  }
-}
-
-
-
-/* @media screen and (min-width: 576px){
-  body{
-    background-size: 33%;
-  }
-} */
-@media screen and (max-width: 576px){
-  #content{
-    width:100%;
-  }
-  #nav1{
-    width:100%;
-  }
-  #wrapper{
-    width:100%
-  }
-} 
-
-
-
-/* @media screen and (min-width: 360px){
-  body{
-    background-size: 33%;
-  }
-} */
-@media screen and (max-width: 360px){
-  #content{
-    width:20%;
-  }
-  #nav1{
-    width:30%;
-  }
-  #wrapper{
-    width:30%
-  }
-}
-
+/* Setting zoom on hover */
 #zoom {
   transition: transform .5s;
 }
@@ -235,13 +152,58 @@ figcaption{
   position: relative;
 }
 
+/*Responsive webpage*/
+@media screen and (max-width: 1400px){
+  #content{
+    size: 50%;
+  }
+}
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 992px){
+  #wrapper{
+    width: 60%;
+  }
+  #nav1{
+    width: 30%;
+    background-color:white;
+  }
   .creds{
     width:30%;
   }
-  /* #contnet{
-    width: 30%;
-  } */
-  
+}
+
+@media screen and (max-width: 768px){
+  #content{
+   width: 100%;
+  }
+  #nav1{
+   width:100%;
+  }
+  #wrapper{
+   width:100%;
+  }
+}
+
+@media screen and (max-width: 576px){
+  #content{
+    width:100%;
+  }
+  #nav1{
+    width:100%;
+  }
+  #wrapper{
+    width:100%
+  }
+} 
+
+@media screen and (max-width: 360px){
+  #content{
+    width:20%;
+  }
+  #nav1{
+    width:30%;
+  }
+  #wrapper{
+    width:30%
+  }
 }
