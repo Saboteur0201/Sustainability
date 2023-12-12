@@ -6,13 +6,13 @@
   }
 @media (max-width: 1100px) {
     .sidenav {
-    display: none;
+    display: none; /* when screen is 1100px and under, the side nav disapears*/
     }
     span{
       color:#6c757d;
     }
     .myimg{
-      display: none;
+      display: none; /*Icon disapears*/
     }
     }
     @media (max-width:600px){
@@ -24,11 +24,11 @@
     @media (max-width:500px){
     }
   .nav-item{
-  margin-left: 40px;
+  margin-left: 40px; /*pushes nav text to center*/
   
   }
   .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 32px;/*styles text in sidenav*/
     text-decoration: none;
     font-size: 25px;
     color: #818181;
