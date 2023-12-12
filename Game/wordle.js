@@ -1,4 +1,6 @@
-
+if (confirm("Hello there! Welcome to the mini game section. For this game, you are to guess a random 5 letter word. Let's see the rules of this game")) {
+  alert("Letters that are in the answer and in the right place will display on the box, Letters that are in the answer but in the wrong place it will display on the bottom. Max guesses = 6. ");
+} else {};
 // List of words to choose from
 const wordList = [
   "which",

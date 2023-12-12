@@ -7,11 +7,30 @@
   <title>Mini Game</title>
 </head>
 <body>
-<script>
-  if (confirm("Hello there! Welcome to the mini game section. For this game, you are to guess a random 5 letter word. Let's see the rules of this game")) {
-    alert("Letters that are in the answer and in the right place will display on the box, Letters that are in the answer but in the wrong place it will display on the bottom. Max guesses = 6. ");
-} else {};
-</script>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">  
+      <a class="navbar-brand" href="#">Sustainability</a>  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">    
+          <span class="navbar-toggler-icon"></span>  
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">    
+          <ul class="navbar-nav">      
+              <li class="nav-item item1 active">  
+                   <a class="nav-link active" href="index.html">Home 
+                      <span class="sr-only">(current)</span>
+                  </a>     
+               </li>     
+                <li class="nav-item active">     
+                  <a   onclick="document.getElementById('id01').style.display='block'"  class="nav-link active" href="#">Newsletter</a>      
+              </li>      
+              <li class="nav-item active">        
+                  <a class="nav-link active" href="credits.html">Credits</a>      
+              </li>      
+              <li class="nav-item active">        
+                  <a class="nav-link active" href="Game/wordle.html">Game</a>      
+              </li>    
+          </ul>  
+      </div>
+  </nav>
 <div class="container">
   <h1>
     Mini Game
