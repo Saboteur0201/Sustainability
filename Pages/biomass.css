@@ -1,6 +1,6 @@
 @media (max-width:600px){
   #white{
-    background: rgba(135, 135, 135, 0.951)
+    background: rgba(135, 135, 135, 0.951) /*displays a darker background on phone displays, making it easier for users to read text*/
      }
 
   }
@@ -15,14 +15,6 @@
       display: none; /*Icon disapears*/
     }
     }
-    @media (max-width:600px){
-      .navbar-nav{
-        display: flex;
-        
-      }
-    }
-    @media (max-width:500px){
-    }
   .nav-item{
   margin-left: 40px; /*pushes nav text to center*/
   
@@ -33,29 +25,29 @@
     font-size: 25px;
     color: #818181;
     display:block;
-    transition: 0.3s;
+    transition: 0.3s; /*transition when clicking icon to sidenav*/
     
   }
   .myimg{
-    position: absolute;
-    padding: 4px;;
+    position: absolute; /*controls position of icon and padding around it*/
+    padding: 4px;
     
   }
   body{
       background-image: url("https://www.publicdomainpictures.net/pictures/130000/velka/grey-gradient-background-1439642315lMp.jpg");
   }
   #white{
-    color: white;
+    color: white; /*colors main text*/
     margin-top:0px;
-    padding:34px;
+   padding: 43px;
   }
-  #navbarbtn{
-      background-color:lightgrey;
-      color:Black;
-      border-radius: 15px;
-      margin-left: 15px;
-  }
-  ul{
+ /* #navbarbtn{
+    background-color:lightgrey;
+    color:Black;
+    border-radius: 15px;
+    margin-left: 15px;
+}*/
+  /*ul{
     width:100%;
     position: flex;
     padding: 0;
@@ -63,27 +55,12 @@
      left: 100%;
   
   
-  }
+  }*/
   .navbar-nav a{
-      color:white;
+      color:white; /*horizontal navbar link color*/
+     
   }
-  
-    @keyframes pop {
-      50%  {
-        transform: scale(1.3);
-      }
-    }
-    .para11{
-      display:inline;
-      position: relative;
-      height:50px;
-      width: 275px;
-      margin:0;
-      padding:0;
-      }
-      
-         
-      @media(max-width: 578px){
+      @media(max-width: 578px){ /*controls size of text in the container when size is 578px and under*/
         div.container{
         font-size:30px;
         }
@@ -109,56 +86,44 @@
    
   
   }
-  .textside{
-    color:lightblue !important;
-    }
-    
-    .textside2{
-      color:red !important;
+  .textside2{
+      color:red !important;/*Makes this css take importance*/
       transition: 2s;
       }
-  @media screen and (max-width: 700px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position:relative;
-    }
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
-  }
+  
   .sidenav{
     height: 500px;
-    border-radius: 15px;
+    border-radius: 15px; /*controls height and rounds corners*/
   }
   .textside{
-    color:gainsboro !important;
+    color:gainsboro !important; /*used to take highest importance of color that controls that text no matter where in the css code*/
     }
-    
     .textside2{
       color:red !important;
       transition: 2s;
       }
   div.opac:hover{
-    background: rgba(108, 109, 107, 0.829);
+    background: rgba(108, 109, 107, 0.829); /* adds background to text*/
     border-radius:20px;
     transition: ease-in 2s;
     transition: ease-out 2s;
   
   }
   .fw-bolder:hover{
-  color: lightblue;
+  color: lightblue; /*adds color to heading*/
   transition: 1.2s;
   }
   .popdiv:hover{
-    background: rgba(40, 40, 40, 0.32);
+    background: rgba(40, 40, 40, 0.32); /*adds a background to text with transistion*/
     border-radius: 20px;
     transition:ease-in-out 2s;
     padding:5px;
   }
   #subhead:hover{
-    padding-top: 100px;
+    padding: 10px; /**/
+    transition:2s;
   }
   #nav-head{
-    text-decoration: underline;
+    text-decoration: underline; /*styles*/ 
     font-weight: 700;
    }
