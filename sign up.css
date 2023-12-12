@@ -64,7 +64,7 @@ button:hover {
   background-color: #a8a8a8;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  height: 120%;
+  height: 100%;
   width: 40%; 
 }
 
